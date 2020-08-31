@@ -1,0 +1,22 @@
+{
+  "name": "learn-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "copy-to-clipboard": "^3.3.1",
+    "cuid": "^2.1.8",
+    "imagemin-svgo": "^8.0.0",
+    "next": "9.3.5",
+    "next-compose-plugins": "^2.2.0",
+    "next-optimized-images": "^2.6.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "sass": "^1.26.10"
+  }
+}
