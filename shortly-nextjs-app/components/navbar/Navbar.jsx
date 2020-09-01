@@ -33,17 +33,17 @@ export default function Navbar() {
       </div>
       <div className={`navbar__links ${mobileNavbar && "mobile"}`}>
         <ul className="navbar__links-box navbar__navigation-box">
-          <li>
+          <li onClick={() => setMobileNavbar(false)}>
             <Link href="/">
               <a className="navbar__link">Home</a>
             </Link>
           </li>
-          <li>
+          <li onClick={() => setMobileNavbar(false)}>
             <Link href="/features">
               <a className="navbar__link">Features</a>
             </Link>
           </li>
-          <li>
+          <li onClick={() => setMobileNavbar(false)}>
             <Link href="/pricing">
               <a className="navbar__link">Pricing</a>
             </Link>
